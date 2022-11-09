@@ -56,3 +56,49 @@ table {
     width: 100%;
     margin: 0 20%;
   }
+
+  /*Header*/
+  header{
+    background-image: url(/assets/headerBg.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+  }
+
+  .main-header__article{
+	width: 50%;
+	padding-top: 264px;
+	padding-bottom: 162px;
+	text-align: center;
+	
+  }
+  .main-header__title{
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 54%;
+letter-spacing: 4.8px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom: 11px;
+  }
+  .main-header__subtitle{
+
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 118%;
+	letter-spacing: 6.82px;
+	color: #FFFFFF;
+	padding-bottom: 48px;
+	
+}
+.main-header__form{
+
+}
+.main-header__scroll{
+
+}
+
+
