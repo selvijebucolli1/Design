@@ -77,6 +77,27 @@ letter-spacing: 1.6px;
 color: #E8E8E8;
 
   }
+  .btn{
+	width: 228px;
+	height: 63px;
+	padding-left: 40px;
+	background: #5474FD;
+	opacity: 0.7;
+		
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height:  162%;
+	display: flex;
+	align-items: center;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	color: #FFFFFF;
+
+  }
 
   /*Header*/
   header{
@@ -266,3 +287,28 @@ color: #FFFFFF;
 		float: right;
 		padding-top: 10px;
 	}
+/*Icons */
+.icons{
+	height: 340px;
+	background: #333333;
+}
+.icons__wrapper{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 80px 97px;
+	
+}
+.icons__item{
+	padding:21px 50px;
+	text-align: center;
+}
+.icons__img{
+
+	background-color: #333333;
+	border-radius: 100%;
+}
+.icons__title{
+	padding-top: 19px;
+}
