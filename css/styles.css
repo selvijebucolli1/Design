@@ -147,9 +147,6 @@ form button{
 	color: #FFFFFF;
 	
 }
-
-
-
 .main-header__scroll{
 	
 font-family: 'Josefin Sans';
@@ -161,3 +158,55 @@ letter-spacing: 2.8px;
 color: #FFFFFF;
 
 }
+
+
+
+.head {
+    height: 80px;
+	background: #5474FD;
+  }
+  .head__logo {
+    float: left;
+    padding:30px 0px;
+	
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 108%;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 2.4px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+  }
+  
+  .main-nav{
+    float: right;
+  }
+  
+  .main-nav ul{
+    float: left;
+    list-style: none;
+    padding: 28px;
+  }
+  .main-nav li {
+    float: left;
+	width: 126px;
+	height: 26px;
+    margin-right: 12px;
+  }
+  .main-nav li a{
+		
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 186%;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+  }
