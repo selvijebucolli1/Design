@@ -54,7 +54,7 @@ table {
  .container{
     max-width: 1208px;
     width: 100%;
-    margin: 0 20%;
+    margin: 0 auto;
   }
 
   /*In common */
@@ -66,6 +66,19 @@ font-weight: 400;
 font-size: 36px;
 line-height: 72%;
 color: #FFFFFF;
+  }
+  h5{
+	
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+display: flex;
+align-items: center;
+letter-spacing: 1.5px;
+
+color: #E8E8E8;
   }
   p{
 	font-family: 'Josefin Sans';
@@ -80,9 +93,8 @@ color: #E8E8E8;
   .btn{
 	width: 228px;
 	height: 63px;
-	padding-left: 40px;
+	padding: 0px 35px;
 	background: #5474FD;
-	opacity: 0.7;
 		
 	font-family: 'Aleo';
 	font-style: normal;
@@ -91,6 +103,7 @@ color: #E8E8E8;
 	line-height:  162%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	letter-spacing: 1.2px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -312,3 +325,49 @@ color: #FFFFFF;
 .icons__title{
 	padding-top: 19px;
 }
+
+/*Booking1 */
+.booking1{
+	background-image: url(/assets/booking1bg.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+
+  }
+  .booking__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	padding-top: 227px;
+  }
+
+
+.booking__article{
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    padding: 49px 32px;
+    margin-bottom: 100px;
+}
+.booking__headline{
+	padding-bottom: 23px;
+}
+
+.booking__title{
+padding-bottom: 13px;
+}
+.booking__info{
+	padding-bottom:46px;
+}
+
+/* Booking 2 */
+.booking2{
+	background: url(/assets/booking2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.wrapper2{
+    display: grid; 
+	grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    ". col2 "
+}
+.booking__article-right{ grid-area: col2; }
