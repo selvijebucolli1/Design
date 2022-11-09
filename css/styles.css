@@ -470,3 +470,153 @@ color: #FFFFFF;
 	
 	
   }
+
+
+  
+@media (min-width:768px) and (max-width:1024px) {
+
+	.container {
+		max-width: 1024px;
+		width: 100%;
+		margin: 0 40px;
+	  }
+	  
+.head {
+    height: 80px;
+	background: #5474FD;
+	display: flex;
+
+  }
+  .head__logo {
+    float: left;
+    padding:30px 10px;
+
+  }
+  
+  .main-nav{
+    float: right;
+  }
+  
+  .main-nav ul{
+    float: left;
+  }
+  .main-nav li {
+    float: left;
+	width: 97px;
+	height: 26px;
+    margin-right: 12px;
+  }
+  .main-nav li a{
+		
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 186%;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+  }
+
+/* Choose Us */
+.chooseus{
+	background-image: url(../assets/chooseusBG.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	
+
+  }
+  
+.wrapper{
+	width: 80%;
+	grid-template-columns: 55% 45%; 
+	gap: 30px;
+	
+}
+.chooseus__article{
+	padding-top: 112px;
+	width: 80%;
+ }
+
+ .chooseus__images{ 
+	padding-top: 85px;
+ }
+
+/*icons */
+.icons{
+	height: 200px;
+	background: #333333;
+}
+.icons__wrapper{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px 27px;
+	
+}
+.icons__item{
+	padding:21px 0px;
+	text-align: center;
+	
+}
+
+h2{
+	
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 72%;
+	color: #FFFFFF;
+	  }
+
+
+
+/*booking2 */
+.booking__wrapper{
+width: 92%;
+
+}
+
+
+.reviews__img {
+	width: 50%;
+	
+}
+.reviews__img img{
+	width: 90%;
+	
+}
+
+.reviews__info {
+	width: 50%;
+	float: right;
+	color: #e8e8e8;
+	padding: 25px 0px;
+	padding-right: 50px;
+}
+p{
+font-size: 12px;
+  }
+.reviews-wrapper{
+	min-height: 220px;
+	
+	
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
