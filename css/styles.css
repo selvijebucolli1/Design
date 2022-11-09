@@ -57,6 +57,27 @@ table {
     margin: 0 20%;
   }
 
+  /*In common */
+  h2{
+	
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 72%;
+color: #FFFFFF;
+  }
+  p{
+	font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+letter-spacing: 1.6px;
+color: #E8E8E8;
+
+  }
+
   /*Header*/
   header{
     background-image: url(/assets/headerBg.png);
@@ -210,3 +231,38 @@ color: #FFFFFF;
 	text-transform: uppercase;
 	color: #FFFFFF;
   }
+
+  /* Choose Us */
+  .chooseus{
+	background-image: url(/assets/chooseusBG.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	
+
+  }
+  
+.wrapper{
+	width: 100%;
+    display: grid; 
+	grid-template-columns: 55% 40%; 
+	gap: 0px 0px; 
+	grid-template-areas: 
+		"col1 col2 "
+	}
+	.chooseus__article{ grid-area: col1;
+		padding-top: 212px;
+		width: 80%;
+	 }
+	.chooseus__title{
+		padding-bottom: 50px;
+	}
+	.chooseus__text{
+		padding-bottom: 42px;
+	}
+	.chooseus__images{ grid-area: col2;
+	padding-top: 135px;
+	padding-bottom: 100px; }
+	.chooseus__images2{
+		float: right;
+		padding-top: 10px;
+	}
