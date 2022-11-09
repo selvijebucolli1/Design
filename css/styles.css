@@ -114,7 +114,7 @@ color: #E8E8E8;
 
   /*Header*/
   header{
-    background-image: url(/assets/headerBg.png);
+    background-image: url(../assets/headerBg.png);
 	background-size:cover;
 	background-repeat: no-repeat;
 	display: flex;
@@ -211,6 +211,7 @@ font-size: 14px;
 line-height: 26px;
 letter-spacing: 2.8px;
 color: #FFFFFF;
+text-decoration: none;
 
 }
 
@@ -268,7 +269,7 @@ color: #FFFFFF;
 
   /* Choose Us */
   .chooseus{
-	background-image: url(/assets/chooseusBG.png);
+	background-image: url(../assets/chooseusBG.png);
 	background-size:cover;
 	background-repeat: no-repeat;
 	
@@ -328,7 +329,7 @@ color: #FFFFFF;
 
 /*Booking1 */
 .booking1{
-	background-image: url(/assets/booking1bg.png);
+	background-image: url(../assets/booking1bg.png);
 	background-size:cover;
 	background-repeat: no-repeat;
 
@@ -360,7 +361,7 @@ padding-bottom: 13px;
 
 /* Booking 2 */
 .booking2{
-	background: url(/assets/booking2.png);
+	background: url(../assets/booking2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -371,3 +372,43 @@ padding-bottom: 13px;
     ". col2 "
 }
 .booking__article-right{ grid-area: col2; }
+
+/* reviews */
+
+.reviews {
+	background: url(../assets/reviews\ bg.png) 50% / cover no-repeat;
+	padding: 120px 0 200px;
+}
+
+.reviews__title {
+	font-family: 'Aleo', serif;
+	font-size: 36px;
+	text-align: center;
+	text-transform: capitalize;	
+}
+
+.reviews-wrapper{
+	margin-top: 94px;
+	min-height: 285px;
+	background-color: #333333;
+	opacity: 0.9;
+}
+
+.reviews__img {
+	float: left;
+	background: url(....../img/reviewsmall.png) cover no-repeat;
+}
+
+.reviews__info {
+	width: 655px;
+	float: right;
+	color: #e8e8e8;
+	padding: 45px 10px;
+}
+
+.reviews__author {
+	font-size: 20px;
+	text-transform: uppercase;	
+}
+
+
