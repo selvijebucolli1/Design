@@ -52,7 +52,7 @@ table {
     padding: 0;
  }
  .container{
-    max-width: 1108;
+    max-width: 1208px;
     width: 100%;
     margin: 0 20%;
   }
@@ -62,10 +62,13 @@ table {
     background-image: url(/assets/headerBg.png);
 	background-size:cover;
 	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+
   }
 
   .main-header__article{
-	width: 50%;
+	width: 100%;
 	padding-top: 264px;
 	padding-bottom: 162px;
 	text-align: center;
@@ -95,10 +98,66 @@ padding-bottom: 11px;
 	
 }
 .main-header__form{
+margin-bottom: 108px;
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
+form{
+	width: 653px;
+	height: 63px;
+	display: flex;
+	
+}
+form input{
+	flex: 1;
+	border: none;
+	outline: none;
+		
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 186%;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 2.8px;
+	color: #999999;
+
+}
+form button{
+	padding:10px 40px;
+	background: #5474FD;
+	border: 2px solid #FFFFFF;
+
+
+	font-family: 'Aleo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 186%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 1.4px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	
+}
+
+
+
 .main-header__scroll{
+	
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 2.8px;
+color: #FFFFFF;
 
 }
-
-
